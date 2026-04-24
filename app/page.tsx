@@ -40,19 +40,22 @@ const outcomes = [
   "Grow on YouTube",
 ];
 
-// ✅ FIXED LINKS (this was your main issue)
 const links: Record<string, string> = {
   "Freelance writing faster": "/ai-tools-for-freelance-writing",
   "Edit videos faster": "/ai-tools-for-youtube",
-  "Generate thumbnails": "/ai-tools-for-thumbnails",   // FIXED
-  "Automate Instagram": "/ai-tools-for-instagram",     // already correct
-  "Write assignments": "/ai-tools-for-students",       // already correct
+  "Generate thumbnails": "/ai-tools-for-thumbnails",
+  "Automate Instagram": "/ai-tools-for-instagram",
+  "Write assignments": "/ai-tools-for-students",
   "Grow on YouTube": "/ai-tools-for-youtube",
 };
 
 export default function Home() {
   return (
     <main className="pageShell">
+
+      {/* ✅ THIS LINE FIXES YOUR VERIFICATION */}
+      <p>Impact-Site-Verification: 59bfdab6-1dd9-4800-8da2-bc38ab942c4d</p>
+
       <section className="hero">
         <div className="heroCopy">
           <p className="eyebrow">Outcome-first AI discovery</p>

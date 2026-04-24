@@ -29,18 +29,22 @@ export const metadata: Metadata = {
     description: "Find the best AI tools by outcome, not vague categories.",
     type: "website",
   },
+
+  // ✅ THIS FIXES YOUR PROBLEM
+  verification: {
+    other: {
+      "impact-site-verification": "59bfdab6-1dd9-4800-8da2-bc38ab942c4d",
+    },
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
-      <head>
-        <meta name='impact-site-verification' content='59bfdab6-1dd9-4800-8da2-bc38ab942c4d' />
-      </head>
       <body>{children}</body>
     </html>
   );
