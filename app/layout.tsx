@@ -38,6 +38,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
+      <head>
+        <meta name='impact-site-verification' content='59bfdab6-1dd9-4800-8da2-bc38ab942c4d' />
+      </head>
       <body>{children}</body>
     </html>
   );

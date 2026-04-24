@@ -2,6 +2,8 @@ export default function Page() {
   return (
     <main>
       <h1>Best AI Tools for Coding</h1>
+  
+
 
       <h2>1. GitHub Copilot</h2>
       <p>AI coding assistant that helps write code faster.</p>
