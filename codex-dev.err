@@ -1,0 +1,506 @@
+⨯ Error: The default export is not a React Component in "/page"
+    at ignore-listed frames
+⨯ Error: The default export is not a React Component in "/page"
+    at ignore-listed frames {
+  page: '/'
+}
+⨯ ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m347 |[0m     </main>
+  [90m348 |[0m   );
+[31m[1m>[0m [90m349 |[0m }
+  [90m    |[0m [31m[1m^[0m
+  [90m350 |[0m [36mconst[0m ultraUseCards = [
+  [90m351 |[0m   {
+  [90m352 |[0m     number: [32m"01"[0m,
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m347 |[0m     </main>
+  [90m348 |[0m   );
+[31m[1m>[0m [90m349 |[0m }
+  [90m    |[0m [31m[1m^[0m
+  [90m350 |[0m [36mconst[0m ultraUseCards = [
+  [90m351 |[0m   {
+  [90m352 |[0m     number: [32m"01"[0m,
+
+Parsing ecmascript source code failed
+
+
+[browser] Uncaught Error: ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:349:1)
+    at <unknown> (Error: (./app/page.tsx:349:1)
+⨯ ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  [90m277 |[0m       </section>
+  [90m278 |[0m
+[31m[1m>[0m [90m279 |[0m       <section id=[32m"outcomes"[0m className=[32m"sectionBlock"[0m>
+  [90m    |[0m                [31m[1m^^[0m
+  [90m280 |[0m         <div className=[32m"homeSectionIntro"[0m>
+  [90m281 |[0m           <p>[33mSTART[0m [33mHERE[0m</p>
+  [90m282 |[0m
+
+Parsing ecmascript source code failed
+
+
+[browser] Uncaught Error: ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  277 |       </section>
+  278 |
+> 279 |       <section id="outcomes" className="sectionBlock">
+      |                ^^
+  280 |         <div className="homeSectionIntro">
+  281 |           <p>START HERE</p>
+  282 |
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:279:16)
+    at <unknown> (Error: (./app/page.tsx:279:16)
+⨯ ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  [90m148 |[0m       </p>
+  [90m149 |[0m
+[31m[1m>[0m [90m150 |[0m       <header className=[32m"topBar"[0m>
+  [90m    |[0m               [31m[1m^^^^^^^^^[0m
+  [90m151 |[0m         <[33mLink[0m href=[32m"/"[0m className=[32m"brand"[0m>
+  [90m152 |[0m           [33mFlow[0m<span>[33mAI[0m</span>
+  [90m153 |[0m         </[33mLink[0m>
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  [90m148 |[0m       </p>
+  [90m149 |[0m
+[31m[1m>[0m [90m150 |[0m       <header className=[32m"topBar"[0m>
+  [90m    |[0m               [31m[1m^^^^^^^^^[0m
+  [90m151 |[0m         <[33mLink[0m href=[32m"/"[0m className=[32m"brand"[0m>
+  [90m152 |[0m           [33mFlow[0m<span>[33mAI[0m</span>
+  [90m153 |[0m         </[33mLink[0m>
+
+Parsing ecmascript source code failed
+
+
+[browser] Uncaught Error: ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:150:15)
+    at <unknown> (Error: (./app/page.tsx:150:15)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:349:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  347 |     </main>
+  348 |   );
+> 349 | }
+      | ^
+  350 | const ultraUseCards = [
+  351 |   {
+  352 |     number: "01",
+
+Parsing ecmascript source code failed 
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  277 |       </section>
+  278 |
+> 279 |       <section id="outcomes" className="sectionBlock">
+      |                ^^
+  280 |         <div className="homeSectionIntro">
+  281 |           <p>START HERE</p>
+  282 |
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  277 |       </section>
+  278 |
+> 279 |       <section id="outcomes" className="sectionBlock">
+      |                ^^
+  280 |         <div className="homeSectionIntro">
+  281 |           <p>START HERE</p>
+  282 |
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  277 |       </section>
+  278 |
+> 279 |       <section id="outcomes" className="sectionBlock">
+      |                ^^
+  280 |         <div className="homeSectionIntro">
+  281 |           <p>START HERE</p>
+  282 |
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:279:16
+Expected ',', got 'ident'
+  277 |       </section>
+  278 |
+> 279 |       <section id="outcomes" className="sectionBlock">
+      |                ^^
+  280 |         <div className="homeSectionIntro">
+  281 |           <p>START HERE</p>
+  282 |
+
+Parsing ecmascript source code failed 
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] ./app/page.tsx:150:15
+Expected ',', got 'ident'
+  148 |       </p>
+  149 |
+> 150 |       <header className="topBar">
+      |               ^^^^^^^^^
+  151 |         <Link href="/" className="brand">
+  152 |           Flow<span>AI</span>
+  153 |         </Link>
+
+Parsing ecmascript source code failed 
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\avinash\OneDrive\Desktop\youtube_bot\venv\ai-tools-site\app\globals.css:2278:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:112:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+⨯ ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  [90m48 |[0m     });
+  [90m49 |[0m   [32m`}} />[0m
+[31m[1m>[0m [90m50 |[0m [32m</body>[0m
+  [90m   |[0m        [31m[1m^[0m
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  [90m48 |[0m     });
+  [90m49 |[0m   [32m`}} />[0m
+[31m[1m>[0m [90m50 |[0m [32m</body>[0m
+  [90m   |[0m        [31m[1m^[0m
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  [90m48 |[0m     });
+  [90m49 |[0m   [32m`}} />[0m
+[31m[1m>[0m [90m50 |[0m [32m</body>[0m
+  [90m   |[0m        [31m[1m^[0m
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  [90m48 |[0m     });
+  [90m49 |[0m   [32m`}} />[0m
+[31m[1m>[0m [90m50 |[0m [32m</body>[0m
+  [90m   |[0m        [31m[1m^[0m
+
+Parsing ecmascript source code failed
+
+
+[browser] Uncaught Error: ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/layout.tsx:50:8)
+    at <unknown> (Error: (./app/layout.tsx:50:8)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:50:1
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 |
+     | ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:50:8
+Expected '</', got '<eof>'
+  48 |     });
+  49 |   `}} />
+> 50 | </body>
+     |        ^
+
+Parsing ecmascript source code failed 
+[browser] ./app/layout.tsx:51:1
+Expected '</', got '<eof>'
+  49 |   `}} />
+  50 | </body>
+> 51 |
+     | ^
+
+Parsing ecmascript source code failed 
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.

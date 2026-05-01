@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Manrope, Sora } from "next/font/google";
+import MouseGlow from "./mouse-glow";
 import "./globals.css";
-
-const bodyFont = Manrope({
-  subsets: ["latin"],
-  variable: "--font-body",
-});
-
-const displayFont = Sora({
-  subsets: ["latin"],
-  variable: "--font-display",
-});
 
 export const metadata: Metadata = {
   title: "AI Tools Directory | Find AI Tools by Real Outcome",
@@ -29,8 +19,6 @@ export const metadata: Metadata = {
     description: "Find the best AI tools by outcome, not vague categories.",
     type: "website",
   },
-
-  // ✅ THIS FIXES YOUR PROBLEM
   verification: {
     other: {
       "impact-site-verification": "59bfdab6-1dd9-4800-8da2-bc38ab942c4d",
@@ -40,12 +28,26 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
-      <body>{children}</body>
-    </html>
+    <html data-scroll-behavior="smooth" lang="en">
+     <body suppressHydrationWarning>
+  <MouseGlow />
+  {children}
+  <script dangerouslySetInnerHTML={{__html: `
+    let last = 0;
+    window.addEventListener('scroll', () => {
+      const top = document.querySelector('.topBar');
+      if (!top) return;
+      const cur = window.scrollY;
+      if (cur > last && cur > 80) top.classList.add('topBar--hidden');
+      else top.classList.remove('topBar--hidden');
+      last = cur;
+    });
+  `}} />
+</body>
+  </html>
   );
 }
